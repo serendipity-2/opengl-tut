@@ -13,4 +13,6 @@
 GLuint create_shader(const std::string, const GLuint);
 GLuint link_program(GLuint, GLuint);
 
+GLuint loadBMP_custom(const char *);
+
 #endif 
